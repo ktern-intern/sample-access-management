@@ -5,13 +5,13 @@ This repository is to explore the levels of privileges that can be assigned to e
 
 ### 1) Private repository
 ### 2) 5 Users - Admin, Bravo, Charlie, Delta, Echo
-### 3) Branches - Alpha, Beta, Gamma, Master
+### 3) Branches - Alpha, Beta, Gamma, Master(main)
 
 -> **Admin** has overall access and privileges to all parts of the repository.
 
--> **Bravo** - All privileges on **Alpha**, and **Master** branches only. No access on other branches.
+-> **Bravo** - All privileges on **Alpha**, and **Master**(main) branches only. No access on other branches.
 
--> **Charlie** - All privileges on **Master** only. No access on other branches.
+-> **Charlie** - All privileges on **Master**(main) only. No access on other branches.
 
 -> **Delta** - Only `Pull` and `Clone` privileges on all branches.
 
